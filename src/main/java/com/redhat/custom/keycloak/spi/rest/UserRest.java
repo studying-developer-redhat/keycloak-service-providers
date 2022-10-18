@@ -1,7 +1,7 @@
-package com.redhat.keycloak.spi.rest;
+package com.redhat.custom.keycloak.spi.rest;
 
-import com.redhat.keycloak.spi.model.entity.User;
-import com.redhat.keycloak.spi.service.UserService;
+import com.redhat.custom.keycloak.spi.model.entity.User;
+import com.redhat.custom.keycloak.spi.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

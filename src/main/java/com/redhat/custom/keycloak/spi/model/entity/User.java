@@ -1,4 +1,4 @@
-package com.redhat.keycloak.spi.model.entity;
+package com.redhat.custom.keycloak.spi.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.EqualsAndHashCode;

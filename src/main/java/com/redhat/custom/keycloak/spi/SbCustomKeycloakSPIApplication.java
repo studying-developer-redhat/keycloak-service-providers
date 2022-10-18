@@ -1,13 +1,13 @@
-package com.redhat.keycloak.spi;
+package com.redhat.custom.keycloak.spi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KeycloakServiceProvidersApplication {
+public class SbCustomKeycloakSPIApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KeycloakServiceProvidersApplication.class, args);
+		SpringApplication.run(SbCustomKeycloakSPIApplication.class, args);
 	}
 
 }

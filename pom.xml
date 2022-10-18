@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.redhat.keycloak</groupId>
-	<artifactId>keycloak-service-providers</artifactId>
+	<groupId>com.redhat.custom.keycloak</groupId>
+	<artifactId>sb-custom-keycloak-spi</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>keycloak-service-providers</name>
-	<description>Keycloak SQL Federation</description>
+	<name>sb-custom-keycloak-spi</name>
+	<description>SpringBoot Keycloak Service Provider Interfaces</description>
 
 
 	<licenses>
