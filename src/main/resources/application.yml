@@ -1,9 +1,9 @@
   spring:
     application:
-      name: keycloak-service-providers
+      name: @project.artifactId@
     # Datasource connection properties
     datasource:
-      url: ${DATASOURCE_URL:jdbc:oracle:thin:@//127.0.0.1:46189/ABCPDB1}
+      url: ${DATASOURCE_URL:jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=46189)))(CONNECT_DATA=(SERVICE_NAME=ABCPDB1)))}
       username: ${DATASOURCE_USERNAME:OT}
       password: ${DATASOURCE_PASSWORD:Orcl1234}
       driver-class-name: ${DATASOURCE_DRIVE:oracle.jdbc.OracleDriver}
@@ -23,3 +23,10 @@
       properties:
         hibernate:
           format_sql: true
+  server:
+    port: ${SERVER_PORT:8080}
+
+  application:
+    name: ${spring.application.name}
+    version: @project.version@
+    description: @project.description@

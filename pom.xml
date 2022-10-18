@@ -37,6 +37,7 @@
 		<java.version>11</java.version>
 		<keycloak.version>18.0.0</keycloak.version>
 		<ojdbc8.version>12.2.0.1</ojdbc8.version>
+		<springdoc-openapi-ui.version>1.6.11</springdoc-openapi-ui.version>
 	</properties>
 
 	<dependencies>
@@ -51,12 +52,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
@@ -88,6 +83,12 @@
 			<version>${keycloak.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.9</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -106,6 +107,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+
 	</build>
 
 </project>

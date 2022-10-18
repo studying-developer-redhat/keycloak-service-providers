@@ -1,0 +1,13 @@
+    __  __ __   _____ ______   ___   ___ ___         __  _    ___  __ __     __  _       ___    ____  __  _          _____ ____   ____
+   /  ]|  T  T / ___/|      T /   \ |   T   T       |  l/ ]  /  _]|  T  T   /  ]| T     /   \  /    T|  l/ ]        / ___/|    \ l    j
+  /  / |  |  |(   \_ |      |Y     Y| _   _ | _____ |  ' /  /  [_ |  |  |  /  / | |    Y     YY  o  ||  ' /  _____ (   \_ |  o  ) |  T
+ /  /  |  |  | \__  Tl_j  l_j|  O  ||  \_/  ||     ||    \ Y    _]|  ~  | /  /  | l___ |  O  ||     ||    \ |     | \__  T|   _/  |  |
+/   \_ |  :  | /  \ |  |  |  |     ||   |   |l_____j|     Y|   [_ l___, |/   \_ |     T|     ||  _  ||     Yl_____j /  \ ||  |    |  |
+\     |l     | \    |  |  |  l     !|   |   |       |  .  ||     T|     !\     ||     |l     !|  |  ||  .  |        \    ||  |    j  l
+ \____j \__,_j  \___j  l__j   \___/ l___j___j       l__j\_jl_____jl____/  \____jl_____j \___/ l__j__jl__j\_j         \___jl__j   |____j
+
+Application Name: ${application.name}
+Application Version: ${application.version}
+Application Description: ${application.description}
+Spring Boot ${spring-boot.version}
+Powered by: Rafael Barros
