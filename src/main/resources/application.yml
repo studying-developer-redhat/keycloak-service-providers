@@ -1,0 +1,25 @@
+  spring:
+    application:
+      name: keycloak-service-providers
+    # Datasource connection properties
+    datasource:
+      url: ${DATASOURCE_URL:jdbc:oracle:thin:@//127.0.0.1:46189/ABCPDB1}
+      username: ${DATASOURCE_USERNAME:OT}
+      password: ${DATASOURCE_PASSWORD:Orcl1234}
+      driver-class-name: ${DATASOURCE_DRIVE:oracle.jdbc.OracleDriver}
+      hikari:
+        transaction-isolation: TRANSACTION_READ_COMMITTED
+        connection-test-query: SELECT 1 FROM DUAL
+        connection-init-sql: SELECT 1 FROM DUAL
+        minimum-idle: 1
+        maximum-pool-size: 10
+        idle-timeout: 10000
+        auto-commit: false
+    jpa:
+      database-platform: org.hibernate.dialect.Oracle12cDialect
+      hibernate:
+        ddl-auto: ${DLL_AUTO:update}
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
